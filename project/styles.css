@@ -1,0 +1,67 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #f7f4f4;
+  color: #130101;
+  padding: 15px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-links a {
+  color: #120e0e;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.nav-links a:hover {
+  background-color: #575757;
+}
+
+.hero-section {
+  background-color: #0056b3;
+  color: #fff;
+  text-align: center;
+  padding: 200px 20px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+}
+
+.about-section {
+  padding: 40px 20px;
+}
+
+.about-container, .about-containers, .about-containerss, .about-containersss, .mission-container, .mantra-container, .investment-thesis-container {
+  margin-top: 50px;
+  background: #f4f4f4;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+h2 {
+  color: #0041ff;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
