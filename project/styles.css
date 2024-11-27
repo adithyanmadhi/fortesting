@@ -11,20 +11,22 @@ body {
 }
 
 .navbar {
-  position: fixed; /* Fixes the navbar at the top */
-  top: 0; /* Ensures it's at the very top */
-  left: 0; /* Aligns it to the left */
-  width: 100%; /* Makes it span the full width of the page */
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
   background-color: rgba(255, 255, 255, 0.3);
-  color: white; /* Text color */
+  color: white; 
   padding-top: 0;
   padding-bottom: 40px;
  
 }
 
 .nav-links {
+  padding-left: 700px;
   display: flex;
-  justify-content: space-around;
+  font-size: large;
+
 }
 
 .nav-links a {
@@ -34,7 +36,8 @@ body {
 }
 
 .nav-links a:hover {
-  background-color: #575757;
+  background-color: #ffffff;
+  border-radius:20px;
 }
 
 .hero-section {
@@ -95,7 +98,6 @@ p {
 .section-1-copy {
   filter: saturate(115%);
   background-color: #f2f2f2;
-  background-image: url(https://cdn.prod.website-files.com/6418039…/64ba497…_Frame%2034.webp);
   background-position: 50%;
   background-size: cover;
   justify-content: center;
@@ -105,3 +107,26 @@ p {
 ;
   position: relative;
 }
+
+.btn{
+  background-color: #fafbfb;
+  color: rgb(4, 0, 0);
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 30px;
+  border-top: 100px;
+  margin-top: 30px;
+  font-style: Arial;
+  font-weight: bold;
+  border: #f4f4f4;
+
+}
+
+.btn:hover{
+  background-color: #0041ff;
+
+}
+
+
+
