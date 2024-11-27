@@ -15,17 +15,38 @@ body {
   top: 0; 
   left: 0; 
   width: 100%; 
-  background-color: rgba(255, 255, 255, 0.3);
-  color: white; 
+  background-color: rgba(255, 255, 255, 0.3); 
+  backdrop-filter: blur(10px); 
   padding-top: 0;
   padding-bottom: 40px;
- 
+  font-size: bold;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  z-index: 10; 
 }
 
+.navbar .logo {
+  font-family: "Futura Condensed Extra", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #0e0101; 
+  letter-spacing: 2px;
+  text-align: left; 
+  cursor: pointer;
+  margin-right: 20px; 
+  transition: color 3s ease, opacity 3s ease; 
+}
+
+
+
 .nav-links {
-  padding-left: 700px;
+  padding-left: 800px;
   display: flex;
-  font-size: large;
+  font-size:bold;
+  font-size: 18px;
+  font-family: "Futura Condensed Extra", sans-serif;
+
+
 
 }
 
@@ -36,7 +57,7 @@ body {
 }
 
 .nav-links a:hover {
-  background-color: #ffffff;
+  background-color: #e2d5d5;
   border-radius:20px;
 }
 
@@ -128,5 +149,99 @@ p {
 
 }
 
+
+
+.logo:hover {
+  color:transparent;
+  opacity: .05;
+}
+
+.container {
+  display: flex;
+  gap: 40px; 
+  padding: 40px;
+}
+
+.left-part, .right-part {
+  flex: 1; 
+  padding: 30px; 
+}
+
+
+.left-part {
+  background-color: #ffffff; 
+  text-align: left;
+}
+
+.left-part h2 {
+  font-size: 45px;
+  color: #040000;
+  margin-bottom: 10px;
+  font-style:Arial;
+  font-weight: 900;
+}
+
+.right-part {
+  background-color: #ffffff; 
+  text-align: left;
+  color: rgb(34, 34, 34); 
+  font-family: Gilmer, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.left-part h3 {
+  font-size: 45px;
+  background-image: url(image.webp);
+  background-size: cover; 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  color: transparent; 
+  -webkit-text-fill-color: transparent; 
+  margin-top: 0px;
+  font-weight: 900;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; 
+  }
+}
+
+.containertwo {
+  display: flex; 
+  height: 100vh; 
+}
+
+.left-partone, .right-partone {
+  flex: 1; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  font-size: 24px;
+  color: white;
+}
+
+.left-partone {
+  align-self: flex-start;
+  background-image: url(image.webp);
+  background-position: 0px 0px;
+  background-size: cover;
+  border-bottom-right-radius: 1000px;
+  border-top-right-radius: 1000px;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: rgb(34, 34, 34);
+  display: block;
+  filter: saturate(1.39);
+  font-family: "Futura Condensed Extra", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  height: 660px;
+  width: 260px;
+  overflow: hidden;
+  position: relative; 
+}
 
 
