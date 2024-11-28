@@ -57,7 +57,7 @@ body {
 }
 
 .nav-links a:hover {
-  background-color: #e2d5d5;
+  background-color: #ffffff;
   border-radius:20px;
 }
 
@@ -132,7 +132,7 @@ p {
 .btn{
   background-color: #fafbfb;
   color: rgb(4, 0, 0);
-  padding: 10px 20px;
+  padding: 20px 30px;
   text-decoration: none;
   font-size: 16px;
   border-radius: 30px;
@@ -146,7 +146,8 @@ p {
 
 .btn:hover{
   background-color: #0041ff;
-
+  color: #f4f4f4;
+  border:solid;
 }
 
 
@@ -233,6 +234,48 @@ p {
   box-shadow: none;
   box-sizing: border-box;
   color: rgb(34, 34, 34);
+  display: flex; 
+  flex-direction: column; 
+  font-family: "Futura Condensed Extra", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  height: 660px;
+  width: 260px;
+  overflow: hidden;
+  position: relative; 
+}
+
+.left-partone h1, .left-partone p {
+  display: block; 
+  margin: 0; 
+  padding: 0; 
+}
+
+.containerthree {
+  display: flex; 
+  height: 100vh; 
+}
+
+.left-partwo, .right-partwo {
+  flex: 1; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  font-size: 24px;
+  color: white;
+}
+
+
+.right-partwo {
+  align-self: flex-start;
+  background-image: url(image.webp);
+  background-position: 0px 0px;
+  background-size: cover;
+  border-bottom-left-radius: 1000px;
+  border-top-left-radius: 1000px;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: rgb(34, 34, 34);
   display: block;
   filter: saturate(1.39);
   font-family: "Futura Condensed Extra", sans-serif;
@@ -245,3 +288,358 @@ p {
 }
 
 
+.containerfour {
+  display: flex; 
+  height: 100vh; 
+}
+
+.left-parthree, .right-parthree {
+  flex: 1; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  font-size: 24px;
+  color: white;
+}
+
+.left-parthree{
+  align-self: flex-start;
+  background-image: url(image.webp);
+  background-position: 0px 0px;
+  background-size: cover;
+  border-bottom-right-radius: 1000px;
+  border-top-right-radius: 1000px;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: rgb(34, 34, 34);
+  display: block;
+  filter: saturate(1.39);
+  font-family: "Futura Condensed Extra", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  height: 660px;
+  width: 260px;
+  overflow: hidden;
+  position: relative; 
+}
+
+.containerfive {
+  display: flex; 
+  height: 100vh; 
+}
+
+.left-partfour, .right-partfour{
+  flex: 1; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  font-size: 24px;
+  color: white;
+}
+
+
+.right-partfour {
+  align-self: flex-start;
+  background-image: url(image.webp);
+  background-position: 0px 0px;
+  background-size: cover;
+  border-bottom-left-radius: 1000px;
+  border-top-left-radius: 1000px;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: rgb(34, 34, 34);
+  display: block;
+  filter: saturate(1.39);
+  font-family: "Futura Condensed Extra", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  height: 660px;
+  width: 260px;
+  overflow: hidden;
+  position: relative; 
+}
+
+
+.maincustom-div {
+
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+.right-partone h1{
+
+  font-size: 45px;
+  background-image: url(image.webp);
+  background-size: cover; 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  color: transparent; 
+  -webkit-text-fill-color: transparent; 
+  margin-top: 0px;
+  font-weight: 900;
+
+}
+.left-partwo h1{
+
+    font-size: 45px;
+    background-image: url(image.webp);
+    background-size: cover; 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    color: transparent; 
+    -webkit-text-fill-color: transparent; 
+    margin-top: 0px;
+    font-weight: 900;
+  
+  }
+
+  .right-parthree h1{
+
+    font-size: 45px;
+    background-image: url(image.webp);
+    background-size: cover; 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    color: transparent; 
+    -webkit-text-fill-color: transparent; 
+    margin-top: 0px;
+    font-weight: 900;
+  
+  }
+
+  .left-partfour h1{
+
+    font-size: 45px;
+    background-image: url(image.webp);
+    background-size: cover; 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    color: transparent; 
+    -webkit-text-fill-color: transparent; 
+    margin-top: 0px;
+    font-weight: 900;
+  
+  }
+
+  .maincustom-div h1 {
+    font-size: 60px;
+    background-image: url(image.webp);
+    background-size: cover; 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    color: transparent; 
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    background-size: cover;
+      display: flex;
+    flex-direction: column; 
+  }
+  
+  .maincustom-div {
+    display: flex;
+    height: 1000px;
+    flex-direction: column; 
+  }
+  
+  .maincustom-div h1 {
+    font-size: 60px;
+    margin-bottom: 20px; 
+    font-weight: 900;
+  }
+  
+  .box-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    width: 100%; 
+    justify-content: center;
+    
+  }
+  
+  .box1 {
+    align-items: flex-start;
+    border-bottom: 0.8px solid rgb(219, 196, 196);
+    color: rgb(34, 34, 34);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: rift, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    height: 166.9px;
+    padding: 23px 0;
+    position: relative;
+    width: 400px; 
+    border-radius: 30px;
+    text-align: center; 
+    border-color: #6c6364;
+    border-left-color: rgb(4, 1, 1);
+  }
+  
+  .box1:hover {
+    color: white;
+    box-shadow: 20px 20px 20px rgba(39, 8, 238, 0.15);
+
+  }
+
+  .box1 h2{
+
+    font-size: 30px;
+    color: #040000;
+    font-weight: 900;
+    text-align: end;
+
+  }
+
+
+  .final-section {
+    background-color: #9eaab6;
+    background-image:url(image.webp);
+    text-align: left;
+    padding: 200px 20px;
+    margin-top: 0px;
+    max-width: 100vw;
+    overflow: hidden;
+    height: 250px;
+    
+    
+  }
+  
+  .final-content h1 {
+    font-size: 80px;
+    color: aliceblue;
+    font-style:sans-serif;
+    line-height: 80%;
+    overflow: visible;
+    margin-bottom:0;
+    font-weight: 900;
+  }
+
+  
+  
+
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .unique-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 40px;
+  }
+  
+  .unique-left-section,
+  .unique-middle-section,
+  .unique-right-section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .unique-left-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .unique-office {
+    margin-bottom: 20px;
+  }
+  
+  .unique-office h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .unique-middle-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .unique-specialisations,
+  .unique-services {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .unique-specialisations li,
+  .unique-services li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .unique-right-section h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .unique-subscription-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .unique-subscription-form label {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .unique-subscription-form input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .unique-subscription-form button {
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(64, 64, 64);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+  }
+  
+  .unique-form-note {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  
+  .unique-form-note a {
+    color: rgb(255, 122, 89);
+    text-decoration: none;
+  }
+
+  .unique-form-note  strong{
+    color: rgb(0, 0, 0);
+  }
+  
+  .unique-form-note a:hover {
+    text-decoration: underline;
+  }
+  
+
+  .unique-container h1, 
+.unique-container h2 {
+  color: #000 !important;
+  cursor: pointer;
+}
+
+.unique-container li{
+  cursor: pointer;
+}
+
+.unique-container li:hover{
+  color: #5f4d4f;
+
+}
